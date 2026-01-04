@@ -47,7 +47,7 @@ const _DarkPage = () => {
           </h1>
 
           <p className="text-slate-400 mb-8 max-w-[600px] font-light tracking-tight">
-            At Hustlr we create fast, mobile-friendly websites built for businesses that want to grow online.
+            At Hustlry we create fast, mobile-friendly websites built for businesses that want to grow online.
           </p>
 
           <div className="inline-flex flex-col gap-4">
@@ -100,7 +100,7 @@ const _DarkPage = () => {
         </div>
       </section>
 
-      {/* Pricing Section */}
+      {/* Pricing Section
       <section className="py-24 px-6 relative z-10">
         <div className="max-w-[600px] mx-auto">
           <div className="bg-slate-950/20 p-10 border border-slate-500 text-center">
@@ -142,7 +142,10 @@ const _DarkPage = () => {
             </button>
           </div>
         </div>
-      </section>
+      </section> */}
+{/* Pricing Section */}
+
+
 
     </div>
   )

@@ -35,7 +35,7 @@ const _LightPage = () => {
 </h1>
 
           <p className="text-slate-800 mb-8 max-w-[600px] font-light tracking-tight">
-          At Hustlr we create fast, mobile-friendly websites built for businesses that want to grow online.
+          At Hustlry we create fast, mobile-friendly websites built for businesses that want to grow online.
           </p>
 
           <div className="inline-flex flex-col gap-4 items-center">

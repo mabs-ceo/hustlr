@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from "react"
 import Form from "../components/_form"
 import Footer from "../components/_footer"
+import Pricing from "../components/_pricing"
 import DarkPage from "../components/_DarkPage"
 import LightPage from "../components/_LightPage"
 import { LuMoon, LuSun } from "react-icons/lu"
@@ -76,6 +77,7 @@ export default function Home() {
       {isDarkMode ? <DarkPage /> : <LightPage />}
 
       {/* Shared Sections */}
+      <Pricing />
       <Form />
       <Footer />
     </div>
