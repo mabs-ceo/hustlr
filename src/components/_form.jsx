@@ -15,7 +15,7 @@ const _form = () => {
       </div>
 
       {/* Form */}
-      <form className="flex flex-col gap-8" action="https://formspree.io/f/xgovvnvl" method="POST">
+      <form className="flex flex-col gap-8" action={process.env.NEXT_PUBLIC_FORMSPREE_URL} method="POST">
         
         {/* Field */}
         <div className="flex flex-col gap-2">
@@ -134,9 +134,14 @@ const _form = () => {
 
           <p className="text-sm text-slate-400">
             Prefer instant chat?{" "}
-            <span className="dark:text-darktext text-red-600  font-semibold cursor-pointer">
-              Message me on WhatsApp
-            </span>
+            <a
+  href="https://wa.me/6588062313"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="dark:text-darktext text-red-600 font-semibold cursor-pointer"
+>
+  Message me on WhatsApp
+</a>
           </p>
         </div>
       </form>

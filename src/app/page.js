@@ -56,8 +56,23 @@ export default function Home() {
       >
         {isDarkMode ? <LuMoon /> : <LuSun />}
       </button>
+<a
+  href="https://www.carousell.sg/u/hastlr.sg/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className=" fixed top-22 right-10 z-50 w-20 h-10 rounded-full border-2 border-background dark:border-[#d9fb06] flex items-center justify-center p-2 bg-black overflow-hidden  group"
+>
+  {/* Gradient overlay */}
+  <span className="absolute inset-0 bg-gradient-to-r from-yellow-400 via-pink-500 to-purple-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300 animate-gradient"></span>
 
-      {/* Page Content */}
+  <img
+    src="https://mweb-cdn.karousell.com/build/carousell-logo-title-dark-8af060dc28.svg"
+    alt="Theme Icon"
+    className="relative z-10"
+  />
+</a>
+
+      
       {isDarkMode ? <DarkPage /> : <LightPage />}
 
       {/* Shared Sections */}

@@ -39,10 +39,15 @@ const _LightPage = () => {
           </p>
 
           <div className="inline-flex flex-col gap-4 items-center">
-            <button className="hover:scale-105 transition-all duration-75 uppercase bg-darktext text-background rounded-full px-6 py-4 font-bold inline-flex items-center gap-2">
-              <FaRegComment />
-              Get your website now
-            </button>
+            <a
+  href="https://wa.me/6588062313"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hover:scale-105 transition-all duration-75 uppercase bg-darktext text-background rounded-full px-6 py-4 font-bold inline-flex items-center gap-2"
+>
+  <FaRegComment />
+  Get your website now
+</a>
 
             <span className="text-slate-400 text-sm">
               Starting from just $100
