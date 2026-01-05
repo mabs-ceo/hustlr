@@ -135,7 +135,7 @@ const _form = () => {
           <p className="text-sm text-slate-400">
             Prefer instant chat?{" "}
             <a
-  href="https://wa.me/6588062313"
+  href="https://wa.me/6588062313?text=I%20want%20to%20get%20a%20website%20built.%20Please%20contact%20me."
   target="_blank"
   rel="noopener noreferrer"
   className="dark:text-darktext text-red-600 font-semibold cursor-pointer"
