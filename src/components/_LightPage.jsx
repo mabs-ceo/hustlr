@@ -40,7 +40,7 @@ const _LightPage = () => {
 
           <div className="inline-flex flex-col gap-4 items-center">
             <a
-  href="https://wa.me/6588062313"
+  href="https://wa.me/6588062313?text=I%20want%20to%20get%20a%20website%20built.%20Please%20contact%20me."
   target="_blank"
   rel="noopener noreferrer"
   className="hover:scale-105 transition-all duration-75 uppercase bg-darktext text-background rounded-full px-6 py-4 font-bold inline-flex items-center gap-2"
