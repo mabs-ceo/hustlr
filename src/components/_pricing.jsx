@@ -10,6 +10,7 @@ const _pricing = () => {
         price: 199,
         currency: "SGD",
         description: "For idea validation and simple web presence",
+        link:"https://wa.me/6588062313?text=I%27m%20interested%20in%20the%20Starter%20website%20plan.%20Please%20share%20features%20and%20pricing.",
         deliveryTime: "3–5 days",
         features: [
           "1-page website",
@@ -32,6 +33,7 @@ const _pricing = () => {
         price: 399,
         currency: "SGD",
         description: "For SMEs that need credibility and leads",
+        link:"https://wa.me/6588062313?text=I%20want%20a%20professional%20business%20website.%20Please%20share%20pricing%2C%20timeline%2C%20and%20next%20steps.",
         deliveryTime: "7–10 days",
         features: [
           "3–5 pages",
@@ -53,6 +55,7 @@ const _pricing = () => {
         price: 1999,
         currency: "SGD",
         description: "For real web applications and systems",
+        link:"https://wa.me/6588062313?text=I%20need%20a%20custom%20website%20solution%20and%20would%20like%20to%20discuss%20requirements%20and%20scope.",
         deliveryTime: "3–6 weeks",
         features: [
           "Custom web app",
