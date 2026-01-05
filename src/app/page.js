@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react"
 import Form from "../components/_form"
 import Footer from "../components/_footer"
 import Pricing from "../components/_pricing"
+import Hero from "../components/_Hero"
 import DarkPage from "../components/_DarkPage"
 import LightPage from "../components/_LightPage"
 import { LuMoon, LuSun } from "react-icons/lu"
@@ -74,8 +75,8 @@ export default function Home() {
 </a>
 
       
-      {isDarkMode ? <DarkPage /> : <LightPage />}
-
+      {/* {isDarkMode ? <DarkPage /> : <LightPage />} */}
+<Hero/>
       {/* Shared Sections */}
       <Pricing />
       <Form />

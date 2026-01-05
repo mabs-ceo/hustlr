@@ -12,21 +12,21 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Hustlr | Fast & Mobile-Friendly Business Websites",
+  title: "Hustlry | Fast & Mobile-Friendly Business Websites",
   description:
-    "Hustlr builds professional, mobile-optimized websites that drive leads and grow your business online. Starting from $100.",
+    "Hustlry builds professional, mobile-optimized websites that drive leads and grow your business online. Starting from $100.",
   openGraph: {
-    title: "Hustlr | Fast & Mobile-Friendly Business Websites",
+    title: "Hustlry | Fast & Mobile-Friendly Business Websites",
     description:
       "Hustlr builds professional, mobile-optimized websites that drive leads and grow your business online.",
-    url: "https://yourdomain.com",
-    siteName: "Hustlr",
+    url: "https://hustlry.com",
+    siteName: "Hustlry",
     images: [
       {
-        url: "https://yourdomain.com/og-image.png",
+        url: "https://Hustlry.com/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Hustlr Website Service",
+        alt: "Hustlry Website Service",
       },
     ],
     locale: "en_US",
@@ -34,10 +34,10 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Hustlr | Fast & Mobile-Friendly Business Websites",
+    title: "Hustlry | Fast & Mobile-Friendly Business Websites",
     description:
-      "Hustlr builds professional, mobile-optimized websites that drive leads and grow your business online.",
-    images: ["https://yourdomain.com/og-image.png"],
+      "Hustlry builds professional, mobile-optimized websites that drive leads and grow your business online.",
+    images: ["https://hustlry.com/og-image.png"],
   },
   robots: "index, follow",
 };

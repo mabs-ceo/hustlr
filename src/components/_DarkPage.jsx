@@ -100,51 +100,7 @@ const _DarkPage = () => {
         </div>
       </section>
 
-      {/* Pricing Section
-      <section className="py-24 px-6 relative z-10">
-        <div className="max-w-[600px] mx-auto">
-          <div className="bg-slate-950/20 p-10 border border-slate-500 text-center">
-            <h2 className="font-black text-2xl text-darktext uppercase tracking-wider mb-8">
-              Transparent pricing
-            </h2>
-
-            <div className="flex justify-center items-end mb-6">
-              <span className="text-3xl font-bold text-darktext mr-1">$</span>
-              <span className="text-6xl font-black text-darktext">100</span>
-              <span className="text-3xl font-bold text-darktext ml-1">+</span>
-            </div>
-
-            <p className="text-lg text-textdark mb-8">
-              Starting price for a professional business website. Final cost depends on your specific needs.
-            </p>
-
-            <ul className="text-left mb-8 space-y-3">
-              {[
-                "Responsive design",
-                "Fast loading speed",
-                "Mobile optimized",
-                "Contact forms",
-                "SEO basics",
-              ].map((item) => (
-                <li
-                  key={item}
-                  className="flex items-center gap-3 text-lg text-slate-500"
-                >
-                  <LuCircleCheckBig className="text-darktext" />
-                  {item}
-                </li>
-              ))}
-            </ul>
-
-            <button className="hover:scale-105 transition-all duration-75 w-full uppercase bg-darktext text-background rounded-full px-10 py-5 text-lg font-bold inline-flex justify-center items-center gap-2">
-              <FaRegComment />
-              Request custom quote
-            </button>
-          </div>
-        </div>
-      </section> */}
-{/* Pricing Section */}
-
+ 
 
 
     </div>
