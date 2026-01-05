@@ -23,7 +23,7 @@ const LeadForm = () => {
       {/* Form */}
       <form
         className="flex flex-col gap-8"
-        action={`${process.env.NEXT_PUBLIC_FORMSPREE_URL}?redirect=/thank-you`}
+        action={process.env.NEXT_PUBLIC_FORMSPREE_URL}
         method="POST"
       >
         {/* Full Name */}
@@ -157,14 +157,13 @@ const LeadForm = () => {
           <p className="text-sm text-slate-400">
             Prefer instant chat?{" "}
             <a
-  href="https://wa.me/6588062313?text=I%20want%20a%20professional%20website%20for%20my%20business.%20Please%20share%20pricing%20and%20timeline."
-  target="_blank"
-  rel="noopener noreferrer"
-  className="dark:text-darktext text-red-600 font-semibold cursor-pointer"
->
-  Message me on WhatsApp
-</a>
-
+               href="https://wa.me/6588062313?text=I%20want%20a%20professional%20website%20for%20my%20business.%20Please%20share%20pricing%20and%20timeline."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="dark:text-darktext text-red-600 font-semibold cursor-pointer"
+            >
+              Message me on WhatsApp
+            </a>
           </p>
         </div>
       </form>
