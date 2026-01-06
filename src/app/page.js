@@ -8,6 +8,7 @@ import Hero from "../components/_Hero"
 import DarkPage from "../components/_DarkPage"
 import LightPage from "../components/_LightPage"
 import { LuMoon, LuSun } from "react-icons/lu"
+import { ImWhatsapp } from "react-icons/im";
 
 export default function Home() {
   const [isDarkMode, setIsDarkMode] = useState(null)
@@ -56,22 +57,19 @@ export default function Home() {
         className="fixed top-10 right-10 z-50 w-10 h-10 rounded-full border-2 border-background dark:border-[#d9fb06] flex items-center justify-center hover:scale-105 transition-all duration-75"
         aria-label="Toggle dark mode"
       >
-        {isDarkMode ? <LuMoon /> : <LuSun />}
+        {isDarkMode ? <LuMoon size={32} /> : <LuSun size={32} />}
       </button>
 <a
-  href="https://www.carousell.sg/u/hastlr.sg/"
+  href="https://wa.me/6588062313?text=I%20want%20a%20professional%20website%20for%20my%20business.%20Please%20share%20pricing%20and%20timeline."
   target="_blank"
   rel="noopener noreferrer"
-  className=" fixed top-22 right-10 z-50 w-20 h-10 rounded-full border-2 border-background dark:border-[#d9fb06] flex items-center justify-center p-2 bg-black overflow-hidden  group"
+  className=" fixed top-22 dark:text-background right-10 z-50 w-max h-max rounded-full border-transparent  flex items-center justify-center p-2 bg-gradient-to-r from-emerald-400 via-green-500 to-teal-500 overflow-hidden  group text-white"
 >
   {/* Gradient overlay */}
-  <span className="absolute inset-0 bg-gradient-to-r from-yellow-400 via-pink-500 to-purple-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300 animate-gradient"></span>
+  <span  className=" p-2 absolute  inset-0 bg-gradient-to-r from-emerald-400 via-green-500 to-teal-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300 animate-gradient"></span>
 
-  <img
-    src="https://mweb-cdn.karousell.com/build/carousell-logo-title-dark-8af060dc28.svg"
-    alt="Theme Icon"
-    className="relative z-10"
-  />
+
+  <ImWhatsapp size={28} className="relative z-10 p-0.5"/>
 </a>
 
       
