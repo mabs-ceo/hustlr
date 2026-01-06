@@ -60,17 +60,14 @@ export default function Home() {
         {isDarkMode ? <LuMoon size={32} /> : <LuSun size={32} />}
       </button>
 <a
-  href="https://wa.me/6588062313?text=I%20want%20a%20professional%20website%20for%20my%20business.%20Please%20share%20pricing%20and%20timeline."
+  href="https://wa.me/6582240060?text=I%20want%20a%20professional%20website%20for%20my%20business.%20Please%20share%20pricing%20and%20timeline."
   target="_blank"
   rel="noopener noreferrer"
-  className=" fixed top-22 dark:text-background right-10 z-50 w-max h-max rounded-full border-transparent  flex items-center justify-center p-2 bg-gradient-to-r from-emerald-400 via-green-500 to-teal-500 overflow-hidden  group text-white"
+  className=" whatsapp-glow fixed top-26 right-12 z-50 flex items-center justify-center rounded-full p-3 text-white"
 >
-  {/* Gradient overlay */}
-  <span  className=" p-2 absolute  inset-0 bg-gradient-to-r from-emerald-400 via-green-500 to-teal-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300 animate-gradient"></span>
-
-
-  <ImWhatsapp size={28} className="relative z-10 p-0.5"/>
+  <ImWhatsapp size={28} />
 </a>
+
 
       
       {/* {isDarkMode ? <DarkPage /> : <LightPage />} */}

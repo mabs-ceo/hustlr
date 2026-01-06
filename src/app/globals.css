@@ -65,5 +65,26 @@
   background-size: 200% 200%;
   animation: gradient-move 1.5s ease infinite;
 }
+.whatsapp-float {
+  background: linear-gradient(90deg, #34d399, #22c55e, #14b8a6);
+  animation: floatY 3s ease-in-out infinite;
+  transition: transform 0.25s ease;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+}
+
+@keyframes floatY {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 
 @custom-variant dark (&:where(.dark, .dark *));
